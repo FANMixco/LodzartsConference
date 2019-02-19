@@ -173,6 +173,7 @@
           $("#linkLinkedIn").attr("href","https://www.linkedin.com/in/lerio-cunha/");
           $('#name').text('Lerio Cunha');
           $('#profession').text('International Trainer & Keynote Speaker');
+          $('#description').text("Coming soon");
           $("#imgSpeaker").attr("src","img/speakers/1.jpg");
           break;
         case "2":
@@ -182,15 +183,16 @@
           $("#imgSpeaker").attr("src","img/speakers/2.png");
           $('#description').html("The host of speaking podcast where he shares tips for people to be able to speak in public or organising workshops and full day and longer events. He has already got to No.5 in the USA & No.4 in the UK charts as well as No.1 in Belgium & Singapore for Education on iTunes. Speakingpodcast.com fb - speakingpodcast.<br /><br />Also a serial entrepreneur who formed International Entrepreneurs Toastmasters club to help startups and business owners. He has been involved in over 10 companies in various countries and industries. Co-founder of coolabulla.com  which creates Animation and website development.");
           break;
-        case "3":
+        /*case "3":
           $("#linkLinkedIn").attr("href","https://www.linkedin.com/in/tomaszsobiesiak/");
           $('#name').text('Tomasz Sobiesiak');
           $('#profession').text('SEM/SEO & Digital Analytics');
           $("#imgSpeaker").attr("src","img/speakers/3.jpg");
-          break;
+          break;*/
         case "4":
           $('#name').text('Akbota Sabetova');
           $('#profession').text('Impromptu Speeches Expert');
+          $('#description').text("Coming soon");
           $("#imgSpeaker").attr("src","img/speakers/4.jpg");
           break;
         case "5":
@@ -204,14 +206,22 @@
           $("#linkLinkedIn").attr("href","https://www.linkedin.com/in/norbert-g-264a2848/");
           $('#name').text('Norbert Grezel');
           $('#profession').text('Expert Trainer in Gildia Trenerska');
+          $('#description').text("Coming soon");
           $("#imgSpeaker").attr("src","img/speakers/6.jpg");
           break;
-        case "7":
+        /*case "7":
           $("#linkLinkedIn").attr("href","https://www.linkedin.com/in/elena-paweta/");
           $('#name').text('Elena Pawęta');
           $('#profession').text('Dale Carnegie Trainer & Club Growth Director');
           $("#imgSpeaker").attr("src","img/speakers/7.jpg");
-          break;
+          break;*/
+		default:
+          $("#linkLinkedIn").attr("href","#");
+          $('#name').text('Coming soon');
+          $('#profession').text('Coming soon');
+          $('#description').text("Coming soon");
+          $("#imgSpeaker").attr("src","img/speakers/6.jpg");
+		  break;
       }
     });
   </script>
