@@ -52,14 +52,13 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#speakers">Professors</a></li>
-          <li><a href="index.html#schedule">Schedule</a></li>
-          <li><a href="index.html#venue">Venue</a></li>
-          <li><a href="index.html#gallery">Faculties</a></li>
-          <!--<li><a href="index.html#contact">Contact</a></li>-->
-          <li class="buy-tickets"><a href="index.html#buy-tickets">Buy Tickets</a></li>
+          <li class="menu-active"><a href="#intro" data-tag="home"></a></li>
+          <li><a href="index.html#about" data-tag="about"></a></li>
+          <li><a href="index.html#speakers" data-tag="professors"></a></li>
+          <li><a href="index.html#schedule" data-tag="schedule"></a></li>
+          <li><a href="index.html#venue" data-tag="venue"></a></li>
+          <li><a href="#gallery" data-tag="faculties"></a></li>
+          <li class="buy-tickets"><a href="index.html#buy-tickets" data-tag="buy"></a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -73,7 +72,7 @@
     <section id="speakers-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
-          <h2>Professor Details</h2>
+          <h2 data-tag="professorsDetails"></h2>
           <p><span id="profession"></span>.</p>
         </div>
 
@@ -107,14 +106,13 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-4 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4 data-tag="contactUs"></h4>
             <p>
               Boutique Hotel's <br>
               Piłsudskiego 10/14, 90-051<br>
               Łódź, Poland<br>
-              <strong>Phone:</strong> <a href="tel:+48422886718">+48 42 288 6718</a><br>
+              <strong data-tag="phone"></strong> <a href="tel:+48422886718">+48 42 288 6718</a><br>
               <strong>Email:</strong> <a href="mailto:lodzarts@gmail.com?subject=Contact me (Lodzarts)">lodzarts@gmail.com</a><br>
             </p>
 
@@ -127,9 +125,8 @@
           <div class="col-lg-4 col-md-6 footer-contact">
           </div>
           <div class="col-lg-4 col-md-6 footer-contact" style="text-align:center">
-            <a href="toastmasters.org"><img src="img/tmLogo.png" alt="TM Logo" title="" style="width:256px;"></a>
+            <a href="https://www.toastmasters.org"><img src="img/tmLogo.png" alt="TM Logo" title="" style="width:256px;"></a>
           </div>
-
         </div>
       </div>
     </div>

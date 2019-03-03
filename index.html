@@ -34,9 +34,11 @@
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
+    
+    <script src="js/translate.js"></script>
 </head>
 
-<body>
+<body onload="load()">
 
   <!--==========================
     Header
@@ -52,14 +54,13 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#speakers">Professors</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#venue">Venue</a></li>
-          <li><a href="#gallery">Faculties</a></li>
-          <!--<li><a href="#contact">Contact</a></li>-->
-          <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
+          <li class="menu-active"><a href="#intro" data-tag="home"></a></li>
+          <li><a href="#about" data-tag="about"></a></li>
+          <li><a href="#speakers" data-tag="professors"></a></li>
+          <li><a href="#schedule" data-tag="schedule"></a></li>
+          <li><a href="#venue" data-tag="venue"></a></li>
+          <li><a href="#gallery" data-tag="faculties"></a></li>
+          <li class="buy-tickets"><a href="#buy-tickets" data-tag="buy"></a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -70,12 +71,12 @@
   ============================-->
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <p class="mb-4 pb-0" style="color:yellow">Toastmasters International Presents</p>
-      <h1 class="mb-4 pb-0">Łódźarts: The Magical<br>Conference of the <span>Division A</span></h1>
-      <p class="mb-4 pb-0">12-14 April, Boutique Hotel's, Piłsudskiego 10/14, 90-051, Łódź</p>
+      <p class="mb-4 pb-0" style="color:yellow" data-tag="presents"></p>
+      <h1 class="mb-4 pb-0" data-tag="intro"></h1>
+      <p class="mb-4 pb-0" data-tag="introDate"></p>
       <a href="https://www.youtube.com/watch?v=_VtDR9WwHqE" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto">About The Event</a>
+      <a href="#about" class="about-btn scrollto" data-tag="aboutEvent"></a>
     </div>
   </section>
 
@@ -88,16 +89,16 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h2>About The Event</h2>
-            <p>Welcome to Łódźarts the magical conference where the best magicians from the world are going to gather in Lodz in order to bring leadership and public speaking in one place.</p>
+            <h2 data-tag="aboutEvent"></h2>
+            <p data-tag="eventDescription"></p>
           </div>
           <div class="col-lg-3">
-            <h3>Where</h3>
+            <h3 data-tag="where"></h3>
             <p>Boutique Hotel's, Piłsudskiego 10/14, 90-051, Łódź</p>
           </div>
           <div class="col-lg-3">
-            <h3>When</h3>
-            <p>Friday to Sunday<br>12-14 April</p>
+            <h3 data-tag="when"></h3>
+            <p data-tag="date"></p>
           </div>
         </div>
       </div>
@@ -109,8 +110,8 @@
     <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Event Professors</h2>
-          <p>Here are some of our professors</p>
+          <h2 data-tag="eventProfessors"></h2>
+          <p data-tag="hereProfessors"></p>
         </div>
 
         <div class="row">
@@ -206,19 +207,19 @@
     <section id="schedule" class="section-with-bg">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h2>Event Schedule</h2>
-          <p>Here is our event schedule</p>
+          <h2 data-tag="eventSchedule"></h2>
+          <p data-tag="eventScheduleIntro"></p>
         </div>
 
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab" data-tag="day1"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab" data-tag="day2"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab" data-tag="day3"></a>
           </li>
         </ul>
 
@@ -230,7 +231,7 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>06:00 PM</time></div>
               <div class="col-md-10">
-                <h4>City Game</h4>
+                <h4 data-tag="cityGame"></h4>
                 <p><a href="#" data-toggle="modal" data-target="#lodzFabryczyna">Łódź Fabryczyna</a>.</p>
               </div>
             </div>
@@ -244,16 +245,16 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>09:00 AM</time></div>
               <div class="col-md-10">
-                <h4>Registration</h4>
-                <p>Room: Tramwajowa.</p>
+                <h4 data-tag="registration"></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:00 AM</time></div>
               <div class="col-md-10">
-                <h4>Opening</h4>
-                <p>Room: Tramwajowa.</p>
+                <h4 data-tag="opening"></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
@@ -263,15 +264,15 @@
                 <div class="speaker">
                   <img src="img/speakers/1.jpg" alt="Lerio Cunha">
                 </div>
-                <h4>Keynote. <span>Lerio Cunha</span></h4>
-                <p>Room: Tramwajowa.</p>
+                <h4>🇬🇧 Keynote. <span>Lerio Cunha</span></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>11:00 AM</time></div>
               <div class="col-md-10">
-                <h4>Break</h4>
+                <h4 data-tag="break"></h4>
               </div>
             </div>
 
@@ -282,7 +283,7 @@
                   <img src="img/speakers/2.png" alt="Roy Coughlan">
                 </div>
                 <h4>🇬🇧 Learn how to start a Podcast. <span>Roy Coughlan</span></h4>
-                <p>Room: Filmowa.</p>
+                <p data-tag="room2"></p>
               </div>
               <div class="col-md-2"></div>
               <div class="col-md-10">
@@ -290,14 +291,14 @@
                   <img src="img/speakers/5.jpg" alt="Adam Michalski">
                 </div>
                 <h4>🇵🇱 Take profits from opportunities and manage the risk. <span>Adam Michalski</span></h4>
-                <p>Room: Tramwajowa.</p>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>12:00 PM</time></div>
               <div class="col-md-10">
-                <h4>Lunch break</h4>
+                <h4 data-tag="lunchBreak"></h4>
               </div>
             </div>
 
@@ -305,14 +306,14 @@
               <div class="col-md-2"><time>01:00 PM</time></div>
               <div class="col-md-10">
                 <h4>🇵🇱 International Speech Contest</h4>
-                <p>Room: Tramwajowa.</p>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>02:00 PM</time></div>
               <div class="col-md-10">
-                <h4>Break</h4>
+                <h4 data-tag="break"></h4>
               </div>
             </div>
 
@@ -320,14 +321,14 @@
               <div class="col-md-2"><time>02:15 PM</time></div>
               <div class="col-md-10">
                 <h4>🇬🇧 International Speech Contest</h4>
-                <p>Room: Tramwajowa.</p>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>03:15 PM</time></div>
               <div class="col-md-10">
-                <h4>Break</h4>
+                <h4 data-tag="break"></h4>
               </div>
             </div>
 
@@ -338,7 +339,7 @@
                   <img src="img/speakers/1.jpg" alt="Lerio Cunha">
                 </div>
                 <h4>🇬🇧 Yes, I am a Leader! <span>Lerio Cunha</span></h4>
-                <p>Room: Filmowa.</p>
+                <p data-tag="room2"></p>
               </div>
               <div class="col-md-2"></div>
               <div class="col-md-10">
@@ -346,14 +347,14 @@
                   <img src="img/speakers/6.jpg" alt="Roy Coughlan">
                 </div>
                 <h4>🇵🇱 Fight for your audience like Spartans do. <span>Norbert Grezel</span></h4>
-                <p>Room: Tramwajowa.</p>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>04:15 PM</time></div>
               <div class="col-md-10">
-                <h4>Break</h4>
+                <h4 data-tag="break"></h4>
               </div>
             </div>
 
@@ -364,30 +365,30 @@
                   <img src="img/speakers/4.jpg" alt="Akbota Sabetova">
                 </div>
                 <h4>🇬🇧 Mastering Impromptu Speaking. <span>Akbota Sabetova</span></h4>
-                <p>Room: Filmowa.</p>
+                <p data-tag="room2"></p>
               </div>
               <div class="col-md-2"></div>
               <div class="col-md-10">
                 <div class="speaker">
                   <img src="img/speakers/incognito.png" alt="Coming soon">
                 </div>
-                <h4>🇵🇱 Coming soon. <span>Coming soon</span></h4>
-                <p>Room: Tramwajowa.</p>
+                <h4>🇵🇱 <span data-tag="comingSoon"></span>. <span data-tag="comingSoon"></span></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>05:30 PM</time></div>
               <div class="col-md-10">
-                <h4>Closing</h4>
-                <p>Room: Tramwajowa.</p>
+                <h4 data-tag="closing"></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>08:00 PM</time></div>
               <div class="col-md-10">
-                <h4>Gala Dinner</h4>
+                <h4 data-tag="galaDinner"></h4>
                 <p><a href="#" data-toggle="modal" data-target="#farinaBianco">Farina Bianco</a>.</p>
               </div>
             </div>
@@ -395,7 +396,7 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:00 PM</time></div>
               <div class="col-md-10">
-                <h4>After Party</h4>
+                <h4 data-tag="afterParty"></h4>
                 <p><a href="#" data-toggle="modal" data-target="#scenografia">Scenografia</a>.</p>
               </div>
             </div>
@@ -409,8 +410,8 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>09:00 AM</time></div>
               <div class="col-md-10">
-                <h4>Networking</h4>
-                <p>Room: Tramwajowa.</p>
+                <h4 data-tag="networking"></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
@@ -421,52 +422,52 @@
                   <img src="img/speakers/7.jpg" alt="Elena Pawęta">
                 </div>
                 <h4>🇬🇧 The art of building relationships. <span>Elena Pawęta</span></h4>
-                <p>Room: Filmowa.</p>
+                <p data-tag="room2"></p>
               </div>
               <div class="col-md-2"></div>
               <div class="col-md-10">
                 <div class="speaker">
                   <img src="img/speakers/incognito.png" alt="Coming soon">
                 </div>
-                <h4>🇵🇱 Coming soon. <span>Coming soon</span></h4>
-                <p>Room: Tramwajowa.</p>
+                <h4>🇵🇱 <span data-tag="comingSoon"></span>. <span><span data-tag="comingSoon"></span></span></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:45 PM</time></div>
               <div class="col-md-10">
-                <h4>Break</h4>
+                <h4 data-tag="break"></h4>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>11:00 AM</time></div>
               <div class="col-md-10">
-                <h4>🇵🇱 Evaluation Contest</h4>
-                <p>Room: Tramwajowa.</p>
+                <h4>🇵🇱 <span data-tag="evaluationContest"></span></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>11:45 AM</time></div>
               <div class="col-md-10">
-                <h4>Break</h4>
+                <h4 data-tag="break"></h4>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>12:00 PM</time></div>
               <div class="col-md-10">
-                <h4>🇬🇧 Evaluation Contest</h4>
-                <p>Room: Tramwajowa.</p>
+                <h4>🇬🇧 <span data-tag="evaluationContest"></span></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>12:45 PM</time></div>
               <div class="col-md-10">
-                <h4>Lunch break</h4>
+                <h4 data-tag="lunchBreak"></h4>
               </div>
             </div>
 
@@ -476,31 +477,31 @@
                 <div class="speaker">
                   <img src="img/speakers/incognito.png" alt="Coming soon">
                 </div>
-                <h4>🇬🇧 Coming soon. <span>Coming soon</span></h4>
-                <p>Room: Filmowa.</p>
+                <h4>🇬🇧 <span data-tag="comingSoon"></span>. <span data-tag="comingSoon"></span></h4>
+                <p data-tag="room2"></p>
               </div>
               <div class="col-md-2"></div>
               <div class="col-md-10">
                 <div class="speaker">
                   <img src="img/speakers/incognito.png" alt="Coming soon">
                 </div>
-                <h4>🇵🇱 Coming soon. <span>Coming soon</span></h4>
-                <p>Room: Tramwajowa.</p>
+                <h4>🇵🇱 <span data-tag="comingSoon"></span>. <span><span data-tag="comingSoon"></span></span></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>02:30 AM</time></div>
               <div class="col-md-10">
-                <h4>Break</h4>
+                <h4 data-tag="break"></h4>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>02:45 PM</time></div>
               <div class="col-md-10">
-                <h4>Closing</h4>
-                <p>Room: Tramwajowa.</p>
+                <h4 data-tag="closing"></h4>
+                <p data-tag="room1"></p>
               </div>
             </div>
 
@@ -521,7 +522,7 @@
       <div class="container-fluid">
 
         <div class="section-header">
-          <h2>Event Venue</h2>
+          <h2 data-tag="eventVenue"></h2>
         </div>
 
         <div class="row no-gutters">
@@ -533,7 +534,6 @@
             <div class="row justify-content-center">
               <div class="col-11 col-lg-8">
                 <h3>Boutique Hotel's, Łódź</h3>
-                <p>The heart of the city life.</p>
               </div>
             </div>
           </div>
@@ -550,17 +550,17 @@
 
       <div class="container">
         <div class="section-header">
-          <h2>Faculties</h2>
-          <p>Check the faculty that you belong</p>
+          <h2 data-tag="faculties"></h2>
+          <p data-tag="checkFaculty"></p>
         </div>
       </div>
 
       <div class="owl-carousel gallery-carousel">
-        <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg" alt=""></a>
-        <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg" alt=""></a>
-        <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg" alt=""></a>
-        <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg" alt=""></a>
-        <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg" alt=""></a>
+        <a data-ref="2" class="venobox" data-gall="gallery-carousel"><img data-img="2" alt="Ualish"></a>
+        <a data-ref="3" class="venobox" data-gall="gallery-carousel"><img data-img="3" alt="Flytrus"></a>
+        <a data-ref="4" class="venobox" data-gall="gallery-carousel"><img data-img="4" alt="Blasfeir"></a>
+        <a data-ref="5" class="venobox" data-gall="gallery-carousel"><img data-img="5" alt="Lunalight"></a>
+        <a data-ref="6" class="venobox" data-gall="gallery-carousel"><img data-img="6" alt="Draconis"></a>
       </div>
 
     </section>
@@ -572,26 +572,25 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Buy Tickets</h2>
+          <h2 data-tag="buy"></h2>
         </div>
 
         <div class="row">
           <div class="col-lg-4">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Standard Access</h5>
-                <h6 class="card-price text-center">Coming soon</h6>
+                <h5 class="card-title text-muted text-uppercase text-center" data-tag="option1"></h5>
+                <h6 class="card-price text-center" data-tag="comingSoon"></h6>
                 <hr>
                 <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshops</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Lunch</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Gala Dinner</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="lunch"></span></li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="galaDinner"></span></li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="afterPary"></span></li>
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">Buy Now</button>
+                  <button type="button" class="btn" data-toggle="modal" disabled="disabled" data-ticket-type="standard-access" data-tag="buyNow"></button>
                 </div>
               </div>
             </div>
@@ -599,19 +598,18 @@
           <div class="col-lg-4">
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Pro Access</h5>
-                <h6 class="card-price text-center">Coming soon</h6>
+                <h5 class="card-title text-muted text-uppercase text-center" data-tag="option2"></h5>
+                <h6 class="card-price text-center" data-tag="comingSoon"></h6>
                 <hr>
                 <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshops</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Lunch</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Gala Dinner</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="lunch"></span></li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="galaDinner"></span></li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">Buy Now</button>
+                  <button type="button" class="btn" data-toggle="modal" disabled="disabled" data-ticket-type="pro-access" data-tag="buyNow"></button>
                 </div>
               </div>
             </div>
@@ -620,19 +618,18 @@
           <div class="col-lg-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
-                <h6 class="card-price text-center">Coming soon</h6>
+                <h5 class="card-title text-muted text-uppercase text-center" data-tag="option3"></h5>
+                <h6 class="card-price text-center" data-tag="comingSoon"></h6>
                 <hr>
                 <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshops</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Lunch</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Gala Dinner</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="lunch"></span></li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="galaDinner"></span></li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
+                  <button type="button" class="btn" data-toggle="modal" disabled="disabled" data-ticket-type="premium-access" data-tag="buyNow"></button>
                 </div>
 
               </div>
@@ -641,41 +638,6 @@
         </div>
 
       </div>
-
-      <!-- Modal Order Form -->
-      <div id="buy-ticket-modal" class="modal fade">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Buy Tickets</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form method="POST" action="#">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
-                </div>
-                <div class="form-group">
-                  <select id="ticket-type" name="ticket-type" class="form-control" >
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
-                  </select>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="btn">Buy Now</button>
-                </div>
-              </form>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
 
     </section>
 
@@ -691,12 +653,12 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4 data-tag="contactUs"></h4>
             <p>
               Boutique Hotel's <br>
               Piłsudskiego 10/14, 90-051<br>
               Łódź, Poland<br>
-              <strong>Phone:</strong> <a href="tel:+48422886718">+48 42 288 6718</a><br>
+              <strong data-tag="phone"></strong> <a href="tel:+48422886718">+48 42 288 6718</a><br>
               <strong>Email:</strong> <a href="mailto:lodzarts@gmail.com?subject=Contact me (Lodzarts)">lodzarts@gmail.com</a><br>
             </p>
 
