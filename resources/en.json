@@ -38,12 +38,14 @@
     "checkFaculty": "Check the faculty that you belong",
     "workshops": "Workshops",
     "lunch": "Lunch",
-    "option1": "Option 1",
-    "option2": "Option 2",
-    "option3": "Option 3",
+    "option1": "Standard",
+    "option2": "Full",
+    "option3": "Gala Dinner Only",
     "buyNow": "Buy Now",
     "contactUs": "Contact Us",
     "phone": "Phone:",
     "professorDetails": "Professor Details",
-    "internationalSpeechContest": "International Speech Contest"
+    "internationalSpeechContest": "International Speech Contest",
+    "moreComingSoon": "More coming soon!",
+    "available": "Available"
 }

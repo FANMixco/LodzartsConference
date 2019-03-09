@@ -202,8 +202,8 @@
             <div class="speaker">
               <img src="img/speakers/incognito.png" alt="Incognito" class="img-fluid">
               <div class="details">
-                <h3><a href="#">More coming soon!</a></h3>
-                <p>Coming soon</p>
+                <h3><a href="#"><span data-tag="moreComingSoon"></span></a></h3>
+                <p><span data-tag="comingSoon"></span></p>
               </div>
             </div>
           </div>
@@ -591,17 +591,17 @@
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center" data-tag="option1"></h5>
-                <h6 class="card-price text-center" data-tag="comingSoon"></h6>
+                <h6 class="card-price text-center" data-tag="available"></h6>
                 <hr>
                 <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="contests"></span></li>
                   <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="lunch"></span></li>
                   <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="galaDinner"></span></li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="afterParty"></span></li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" disabled="disabled" data-ticket-type="standard-access" data-tag="buyNow"></button>
+                  <button type="button" class="btn btnBuy" data-tag="buyNow"></button>
                 </div>
               </div>
             </div>
@@ -610,17 +610,17 @@
             <div class="card mb-5 mb-lg-0">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center" data-tag="option2"></h5>
-                <h6 class="card-price text-center" data-tag="comingSoon"></h6>
+                <h6 class="card-price text-center" data-tag="available"></h6>
                 <hr>
                 <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="contests"></span></li>
                   <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="lunch"></span></li>
                   <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="galaDinner"></span></li>
                   <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" disabled="disabled" data-ticket-type="pro-access" data-tag="buyNow"></button>
+                  <button type="button" class="btn btnBuy" data-tag="buyNow"></button>
                 </div>
               </div>
             </div>
@@ -630,17 +630,15 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title text-muted text-uppercase text-center" data-tag="option3"></h5>
-                <h6 class="card-price text-center" data-tag="comingSoon"></h6>
+                <h6 class="card-price text-center" data-tag="available"></h6>
                 <hr>
                 <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="lunch"></span></li>
                   <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="galaDinner"></span></li>
                   <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
                 </ul>
                 <hr>
                 <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" disabled="disabled" data-ticket-type="premium-access" data-tag="buyNow"></button>
+                  <button type="button" class="btn btnBuy" data-tag="buyNow"></button>
                 </div>
 
               </div>
@@ -767,6 +765,15 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+    
+  <script>
+      $(function(){
+    $(".btnBuy").click(function(e){
+        e.preventDefault();
+        window.location.href = "https://lodzarts.evenea.pl";
+    });          
+      });
+  </script>
 </body>
 
 </html>
