@@ -1,925 +1,861 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Łódźarts: The Magical Conference</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Conference,Lodz,Poland,Lodzarts,District 108,Toastmasters,Toastmasters International,2019" name="keywords">
-  <meta content="Lodzarts: The Magical Conference" name="description">
-  <meta name="author" content="Federico Navarrete">
-
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/venobox/venobox.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: TheEvent
-    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-    
-    <script src="js/translate.js"></script>
-</head>
-
-<body onload="load()">
-
-  <!--==========================
-    Header
-  ============================-->
-  <header id="header">
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro" data-tag="home"></a></li>
-          <li><a href="#about" data-tag="about"></a></li>
-          <li><a href="#speakers" data-tag="professors"></a></li>
-          <li><a href="#schedule" data-tag="schedule"></a></li>
-          <li><a href="#venue" data-tag="venue"></a></li>
-          <li><a href="#gallery" data-tag="faculties"></a></li>
-          <li><a href="#videos" data-tag="videos"></a></li>
-          <li><a href="#organizers" data-tag="organizers"></a></li>
-          <li class="buy-tickets"><a href="#buy-tickets" data-tag="buy"></a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
-    <div class="intro-container wow fadeIn">
-      <p class="mb-4 pb-0" style="color:yellow" data-tag="presents"></p>
-      <h1 class="mb-4 pb-0" data-tag="intro"></h1>
-      <p class="mb-4 pb-0" data-tag="introDate"></p>
-      <a href="https://www.youtube.com/watch?v=958wix8DTwk" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto" data-tag="aboutEvent"></a>
-    </div>
-  </section>
-
-  <main id="main">
-
-    <!--==========================
-      About Section
-    ============================-->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 data-tag="aboutEvent"></h2>
-            <p data-tag="eventDescription"></p>
-          </div>
-          <div class="col-lg-3">
-            <h3 data-tag="where"></h3>
-            <p>Boutique Hotel's, Piłsudskiego 10/14, 90-051, Łódź</p>
-          </div>
-          <div class="col-lg-3">
-            <h3 data-tag="when"></h3>
-            <p data-tag="date"></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==========================
-      Professors Section
-    ============================-->
-    <section id="speakers" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2 data-tag="eventProfessors"></h2>
-          <p data-tag="hereProfessors"></p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/1.jpg" alt="Lerio Cunha" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=1">Lerio Cunha</a></h3>
-                <p>International Trainer &amp; Keynote Speaker</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/in/lerio-cunha/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
+   <head>
+      <meta charset="utf-8">
+      <title>Łódźarts: The Magical Conference</title>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta content="Conference,Lodz,Poland,Lodzarts,District 108,Toastmasters,Toastmasters International,2019" name="keywords">
+      <meta content="Lodzarts: The Magical Conference" name="description">
+      <meta name="author" content="Federico Navarrete">
+      <!-- Favicons -->
+      <link href="img/favicon.png" rel="icon">
+      <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+      <!-- Bootstrap CSS File -->
+      <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Libraries CSS Files -->
+      <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+      <link href="lib/animate/animate.min.css" rel="stylesheet">
+      <link href="lib/venobox/venobox.css" rel="stylesheet">
+      <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+      <!-- Main Stylesheet File -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- =======================================================
+         Theme Name: TheEvent
+         Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+         Author: BootstrapMade.com
+         License: https://bootstrapmade.com/license/
+         ======================================================= -->
+      <script src="js/translate.js"></script>
+   </head>
+   <body onload="load()">
+      <!--==========================
+         Header
+         ============================-->
+      <header id="header">
+         <div class="container">
+            <div id="logo" class="pull-left">
+               <!-- Uncomment below if you prefer to use a text logo -->
+               <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+               <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/2.png" alt="Roy Coughlan" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=2">Roy Coughlan</a></h3>
-                <p>Podcast Host at Speakingpodcast.co</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/in/roycoughlan/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/4.jpg" alt="Akbota Sabetova" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=4">Akbota Sabetova</a></h3>
-                <p>Student &amp; English Language Teacher</p>
-                <div class="social">
-                  <a href="https://web.facebook.com/akbota2401"><i class="fa fa-facebook"></i></a>
-                  <a href="https://t.me/TMcommunity"><i class="fa fa-telegram"></i></a>
-                  <a href="https://instagram.com/akbota_elt"><i class="fa fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/5.jpg" alt="Adam Michalski" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=5">Adam Michalski</a></h3>
-                <p>Quality Manager</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/in/adam-michalski-5584831/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/6.jpg" alt="Norbert Grezel" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=6">Norbert Grezel</a></h3>
-                <p>Expert Trainer in Gildia Trenerska</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/in/norbert-g-264a2848/"><i class="fa fa-linkedin"></i></a>
-                  <a href="https://www.instagram.com/gildiatrenerska_norbert/"><i class="fa fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/7.jpg" alt="Elena Pawęta" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=7">Elena Pawęta</a></h3>
-                <p>Dale Carnegie Trainer &amp; Club Growth Director in Toastmasters International</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/in/elena-paweta/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/3.jpg" alt="Bożena Wachowicz" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=3">Bożena Wachowicz</a></h3>
-                <p>Manager i szkoleniowiec</p>
-                <div class="social">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/8.png" alt="Katarzyna Pruska" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=8">Katarzyna Pruska</a></h3>
-                <p>Pracownik Magazynowy w Kuehne + Nagel</p>
-                <div class="social">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/9.jpg" alt="Erik Eklund" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=9">Erik Eklund</a></h3>
-                <p>Keynote Speaker &amp; Brand Strategist</p>
-                <div class="social">
-                  <a href="https://www.linkedin.com/in/erikinspiration/"><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/10.jpg" alt="Kamila Surma" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=10">Kamila Surma</a></h3>
-                <p>Teacher and author of a blog about spirituality and self-development</p>
-                <div class="social">
-                  <a href="http://kamilasurma.com"><i class="fa fa-internet-explorer"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/11.jpg" alt="Jerzy J. Buczyński" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html?speaker=11">Jerzy J. Buczyński</a></h3>
-                <p>Fenix - sztuka iluzji</p>
-                <div class="social">
-                  <a href="https://www.magicfenix.com"><i class="fa fa-internet-explorer"></i></a>
-                  <a href="https://www.linkedin.com/in/jjbuczynski/"><i class="fa fa-linkedin"></i></a>
-                  <a href="https://www.instagram.com/magicjjb/"><i class="fa fa-instagram"></i></a>
-                  <a href="https://www.facebook.com/jjbmagic/"><i class="fa fa-facebook"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/incognito.png" alt="Incognito" class="img-fluid">
-              <div class="details">
-                <h3><a href="#"><span data-tag="moreComingSoon"></span></a></h3>
-                <p><span data-tag="comingSoon"></span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <!--==========================
-      Schedule Section
-    ============================-->
-    <section id="schedule" class="section-with-bg">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h2 data-tag="eventSchedule"></h2>
-          <p data-tag="eventScheduleIntro"></p>
-        </div>
-
-        <ul class="nav nav-tabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab" data-tag="day1"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab" data-tag="day2"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab" data-tag="day3"></a>
-          </li>
-        </ul>
-
-        <div class="tab-content row justify-content-center">
-
-          <!-- Schdule Day 1 -->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>06:00 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="cityGame"></h4>
-                <p><a href="#" data-toggle="modal" data-target="#lodzFabryczyna">Łódź Fabryczyna</a>.</p>
-              </div>
-            </div>
-
-          </div>
-          <!-- End Schdule Day 1 -->
-
-          <!-- Schdule Day 2 -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>09:00 AM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="registration"></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="opening"></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>10:15 AM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/1.jpg" alt="Lerio Cunha">
-                </div>
-                <h4>🇬🇧 Keynote. <span>Lerio Cunha</span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="break"></h4>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:15 AM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/2.png" alt="Roy Coughlan">
-                </div>
-                <h4>🇬🇧 Learn how to start a Podcast. <span>Roy Coughlan</span></h4>
-                <p data-tag="room2"></p>
-              </div>
-              <div class="col-md-2"></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/5.jpg" alt="Adam Michalski">
-                </div>
-                <h4>🇵🇱 Take profits from opportunities and manage the risk. <span>Adam Michalski</span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="lunchBreak"></h4>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>01:00 PM</time></div>
-              <div class="col-md-10">
-                <h4>🇵🇱 <span data-tag="internationalSpeechContest"></span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>02:00 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="break"></h4>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>02:15 PM</time></div>
-              <div class="col-md-10">
-                <h4>🇬🇧 <span data-tag="internationalSpeechContest"></span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:15 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="break"></h4>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:30 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/1.jpg" alt="Lerio Cunha">
-                </div>
-                <h4>🇬🇧 Yes, I am a Leader! <span>Lerio Cunha</span></h4>
-                <p data-tag="room2"></p>
-              </div>
-              <div class="col-md-2"></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/3.jpg" alt="Bożena Wachowicz">
-                </div>
-                <h4>🇵🇱 Co jest najważniejsze w życiu? <span>Bożena Wachowicz</span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:15 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="break"></h4>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:30 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/4.jpg" alt="Akbota Sabetova">
-                </div>
-                <h4>🇬🇧 Mastering Impromptu Speaking. <span>Akbota Sabetova</span></h4>
-                <p data-tag="room2"></p>
-              </div>
-              <div class="col-md-2"></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/6.jpg" alt="Norbert Grezel">
-                </div>
-                <h4>🇵🇱 Fight for your audience like Spartans do. <span>Norbert Grezel</span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>05:30 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="closing"></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>08:00 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="galaDinner"></h4>
-                <p><a href="#" data-toggle="modal" data-target="#farinaBianco">Farina Bianco</a>.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="afterParty"></h4>
-                <p><a href="#" data-toggle="modal" data-target="#scenografia">Scenografia</a>.</p>
-              </div>
-            </div>
-
-          </div>
-          <!-- End Schdule Day 2 -->
-
-          <!-- Schdule Day 3 -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>09:00 AM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="networking"></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/7.jpg" alt="Elena Pawęta">
-                </div>
-                <h4>🇬🇧 The art of building relationships. <span>Elena Pawęta</span></h4>
-                <p data-tag="room2"></p>
-              </div>
-              <div class="col-md-2"></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/8.png" alt="Katarzyna Pruska">
-                </div>
-                <h4>🇵🇱 Warsztaty z emisji głosu uświadomią. <span>Katarzyna Pruska</span></h4>
-                <p data-tag="room1"></p>
-              </div>
-              <div class="col-md-2"></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/11.jpg" alt="Jerzy J. Buczyński">
-                </div>
-                <h4>🇵🇱 Magia wystąpień publicznych: projektowanie wspomnień. <span>Jerzy J. Buczyński</span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>10:45 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="break"></h4>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
-              <div class="col-md-10">
-                <h4>🇵🇱 <span data-tag="evaluationContest"></span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:45 AM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="break"></h4>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 PM</time></div>
-              <div class="col-md-10">
-                <h4>🇬🇧 <span data-tag="evaluationContest"></span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>12:45 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="lunchBreak"></h4>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>01:45 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/9.jpg" alt="Erik Eklund">
-                </div>
-                <h4>🇬🇧 Beyond Authentic - The Untold Art of Personal Branding. <span>Erik Eklund</span></h4>
-                <p data-tag="room2"></p>
-              </div>
-              <div class="col-md-2"></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/10.jpg" alt="Kamila Surma">
-                </div>
-                  <h4>🇵🇱 Medytacja i oddech w przygotowaniu mówcy. <span>Kamila Surma</span></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>02:30 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="break"></h4>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>02:45 PM</time></div>
-              <div class="col-md-10">
-                <h4 data-tag="closing"></h4>
-                <p data-tag="room1"></p>
-              </div>
-            </div>
-
-          </div>
-          <!-- End Schdule Day 3 -->
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <!--==========================
-      Venue Section
-    ============================-->
-    <section id="venue" class="wow fadeInUp">
-
-      <div class="container-fluid">
-
-        <div class="section-header">
-          <h2 data-tag="eventVenue"></h2>
-        </div>
-
-        <div class="row no-gutters">
-          <div class="col-lg-6 venue-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.5191288621036!2d19.459099815460593!3d51.76011620001535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a34d3f44c2a2f%3A0x4ccb798fda95dc55!2sBoutique+Hotel&#39;s!5e0!3m2!1sen!2spl!4v1550160226933" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6 venue-info">
-            <div class="row justify-content-center">
-              <div class="col-11 col-lg-8">
-                <h3>Boutique Hotel's, Łódź</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-<!--      <div class="container-fluid venue-gallery-container">
-        <div class="row no-gutters">
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
+            <nav id="nav-menu-container">
+               <ul class="nav-menu">
+                  <li class="menu-active"><a href="#intro" data-tag="home"></a></li>
+                  <li><a href="#about" data-tag="about"></a></li>
+                  <li><a href="#speakers" data-tag="professors"></a></li>
+                  <li><a href="#schedule" data-tag="schedule"></a></li>
+                  <li><a href="#venue" data-tag="venue"></a></li>
+                  <li><a href="#gallery" data-tag="faculties"></a></li>
+                  <li><a href="#videos" data-tag="videos"></a></li>
+                  <li><a href="#organizers" data-tag="organizers"></a></li>
+                  <li class="buy-tickets"><a href="#buy-tickets" data-tag="buy"></a></li>
+               </ul>
+            </nav>
+            <!-- #nav-menu-container -->
          </div>
-      </div>-->
-
-    </section>
-
-    <!--==========================
-      Gallery Section
-    ============================-->
-    <section id="gallery" class="wow fadeInUp">
-
-      <div class="container">
-        <div class="section-header">
-          <h2 data-tag="faculties"></h2>
-          <p data-tag="checkFaculty"></p>
-        </div>
-      </div>
-
-      <div class="owl-carousel gallery-carousel">
-        <a data-ref="2" class="venobox" data-gall="gallery-carousel"><img data-img="2" alt="Ualish"></a>
-        <a data-ref="3" class="venobox" data-gall="gallery-carousel"><img data-img="3" alt="Flytrus"></a>
-        <a data-ref="4" class="venobox" data-gall="gallery-carousel"><img data-img="4" alt="Blasfeir"></a>
-        <a data-ref="5" class="venobox" data-gall="gallery-carousel"><img data-img="5" alt="Lunalight"></a>
-        <a data-ref="6" class="venobox" data-gall="gallery-carousel"><img data-img="6" alt="Draconis"></a>
-      </div>
-
-    </section>
-
-    <!--==========================
-      Videos Section
-    ============================-->
-    <section id="videos" class="wow fadeInUp">
-
-      <div class="container">
-        <div class="section-header">
-          <h2 data-tag="videos"></h2>
-        </div>
-      </div>
-
-      <div class="owl-carousel gallery-carousel">
-        <a href="https://www.youtube.com/watch?v=o0LhRICQEVQ" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video1.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=ipXqvdExcVM" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video2.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=KWa9wppegVQ" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video3.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=9AxTILQG0v8" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video4.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=9AxTILQG0v8" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video5.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=_gbZoHx0900" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video6.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=Dhdo1XM-ZpY" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video7.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=lXrLbBVErzI" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video8.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=AnEZNenrSas" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video9.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=QpoPGpGzuD8" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video10.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=E_QhSmhsMUk" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video11.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=XzwVakeaD-I" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video12.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=ftOkCXoy8Ls" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video13.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=ZcH1NGzlML4" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video15.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=L5fvH0KOtmo" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video16.jpg"></a>
-        <a href="https://www.youtube.com/watch?v=4fw1eMLUoBY" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video17.jpg"></a>
-      </div>
-
-    </section>
-
-    <!--==========================
-      Buy Ticket Section
-    ============================-->
-    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-      <div class="container">
-
-        <div class="section-header">
-          <h2 data-tag="buy"></h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center" data-tag="option1"></h5>
-                <h6 class="card-price text-center" data-tag="available"></h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="contests"></span></li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="galaDinner"></span></li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn btnBuy" data-tag="buyNow"></button>
+      </header>
+      <!-- #header -->
+      <!--==========================
+         Intro Section
+         ============================-->
+      <section id="intro">
+         <div class="intro-container wow fadeIn">
+            <p class="mb-4 pb-0" style="color:yellow" data-tag="presents"></p>
+            <h1 class="mb-4 pb-0" data-tag="intro"></h1>
+            <p class="mb-4 pb-0" data-tag="introDate"></p>
+            <a href="https://www.youtube.com/watch?v=958wix8DTwk" class="venobox play-btn mb-4" data-vbtype="video"
+               data-autoplay="true"></a>
+            <a href="#about" class="about-btn scrollto" data-tag="aboutEvent"></a>
+         </div>
+      </section>
+      <main id="main">
+         <!--==========================
+            About Section
+            ============================-->
+         <section id="about">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <h2 data-tag="aboutEvent"></h2>
+                     <p data-tag="eventDescription"></p>
+                  </div>
+                  <div class="col-lg-3">
+                     <h3 data-tag="where"></h3>
+                     <p>Boutique Hotel's, Piłsudskiego 10/14, 90-051, Łódź</p>
+                  </div>
+                  <div class="col-lg-3">
+                     <h3 data-tag="when"></h3>
+                     <p data-tag="date"></p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--==========================
+            Professors Section
+            ============================-->
+         <section id="speakers" class="wow fadeInUp">
+            <div class="container">
+               <div class="section-header">
+                  <h2 data-tag="eventProfessors"></h2>
+                  <p data-tag="hereProfessors"></p>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/1.jpg" alt="Lerio Cunha" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=1">Lerio Cunha</a></h3>
+                           <p>International Trainer &amp; Keynote Speaker</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/lerio-cunha/"><i class="fa fa-linkedin"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/2.png" alt="Roy Coughlan" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=2">Roy Coughlan</a></h3>
+                           <p>Podcast Host at Speakingpodcast.co</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/roycoughlan/"><i class="fa fa-linkedin"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/4.jpg" alt="Akbota Sabetova" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=4">Akbota Sabetova</a></h3>
+                           <p>Student &amp; English Language Teacher</p>
+                           <div class="social">
+                              <a href="https://web.facebook.com/akbota2401"><i class="fa fa-facebook"></i></a>
+                              <a href="https://t.me/TMcommunity"><i class="fa fa-telegram"></i></a>
+                              <a href="https://instagram.com/akbota_elt"><i class="fa fa-instagram"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/5.jpg" alt="Adam Michalski" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=5">Adam Michalski</a></h3>
+                           <p>Quality Manager</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/adam-michalski-5584831/"><i class="fa fa-linkedin"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/6.jpg" alt="Norbert Grezel" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=6">Norbert Grezel</a></h3>
+                           <p>Expert Trainer in Gildia Trenerska</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/norbert-g-264a2848/"><i class="fa fa-linkedin"></i></a>
+                              <a href="https://www.instagram.com/gildiatrenerska_norbert/"><i class="fa fa-instagram"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/7.jpg" alt="Elena Pawęta" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=7">Elena Pawęta</a></h3>
+                           <p>Dale Carnegie Trainer &amp; Club Growth Director in Toastmasters International</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/elena-paweta/"><i class="fa fa-linkedin"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/3.jpg" alt="Bożena Wachowicz" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=3">Bożena Wachowicz</a></h3>
+                           <p>Manager i szkoleniowiec</p>
+                           <div class="social">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/8.png" alt="Katarzyna Pruska" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=8">Katarzyna Pruska</a></h3>
+                           <p>Pracownik Magazynowy w Kuehne + Nagel</p>
+                           <div class="social">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/9.jpg" alt="Erik Eklund" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=9">Erik Eklund</a></h3>
+                           <p>Keynote Speaker &amp; Brand Strategist</p>
+                           <div class="social">
+                              <a href="https://www.linkedin.com/in/erikinspiration/"><i class="fa fa-linkedin"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/10.jpg" alt="Kamila Surma" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=10">Kamila Surma</a></h3>
+                           <p>Teacher and author of a blog about spirituality and self-development</p>
+                           <div class="social">
+                              <a href="http://kamilasurma.com"><i class="fa fa-internet-explorer"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/11.jpg" alt="Jerzy J. Buczyński" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=11">Jerzy J. Buczyński</a></h3>
+                           <p>Fenix - sztuka iluzji</p>
+                           <div class="social">
+                              <a href="https://www.magicfenix.com"><i class="fa fa-internet-explorer"></i></a>
+                              <a href="https://www.linkedin.com/in/jjbuczynski/"><i class="fa fa-linkedin"></i></a>
+                              <a href="https://www.instagram.com/magicjjb/"><i class="fa fa-instagram"></i></a>
+                              <a href="https://www.facebook.com/jjbmagic/"><i class="fa fa-facebook"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/12.jpg" alt="Filip Wypych" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="speaker-details.html?speaker=12">Filip Wypych</a></h3>
+                           <p>Polski pływak</p>
+                           <div class="social">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--<div class="col-lg-4 col-md-6">
+                     <div class="speaker">
+                        <img src="img/speakers/incognito.png" alt="Incognito" class="img-fluid">
+                        <div class="details">
+                           <h3><a href="#"><span data-tag="moreComingSoon"></span></a></h3>
+                           <p><span data-tag="comingSoon"></span></p>
+                        </div>
+                     </div>
+                  </div>-->
+               </div>
+            </div>
+         </section>
+         <!--==========================
+            Schedule Section
+            ============================-->
+         <section id="schedule" class="section-with-bg">
+            <div class="container wow fadeInUp">
+               <div class="section-header">
+                  <h2 data-tag="eventSchedule"></h2>
+                  <p data-tag="eventScheduleIntro"></p>
+               </div>
+               <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                     <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab" data-tag="day1"></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#day-2" role="tab" data-toggle="tab" data-tag="day2"></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#day-3" role="tab" data-toggle="tab" data-tag="day3"></a>
+                  </li>
+               </ul>
+               <div class="tab-content row justify-content-center">
+                  <!-- Schdule Day 1 -->
+                  <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>06:00 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="cityGame"></h4>
+                           <p><a href="#" data-toggle="modal" data-target="#lodzFabryczyna">Łódź Fabryczyna</a>.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Schdule Day 1 -->
+                  <!-- Schdule Day 2 -->
+                  <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>09:00 AM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="registration"></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>10:00 AM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="opening"></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>10:15 AM</time></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/1.jpg" alt="Lerio Cunha">
+                           </div>
+                           <h4>🇬🇧 Keynote. <span>Lerio Cunha</span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>11:00 AM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="break"></h4>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>11:15 AM</time></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/2.png" alt="Roy Coughlan">
+                           </div>
+                           <h4>🇬🇧 Learn how to start a Podcast. <span>Roy Coughlan</span></h4>
+                           <p data-tag="room2"></p>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/5.jpg" alt="Adam Michalski">
+                           </div>
+                           <h4>🇵🇱 Take profits from opportunities and manage the risk. <span>Adam Michalski</span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>12:00 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="lunchBreak"></h4>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>01:00 PM</time></div>
+                        <div class="col-md-10">
+                           <h4>🇵🇱 <span data-tag="internationalSpeechContest"></span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>02:00 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="break"></h4>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>02:15 PM</time></div>
+                        <div class="col-md-10">
+                           <h4>🇬🇧 <span data-tag="internationalSpeechContest"></span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>03:15 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="break"></h4>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>03:30 PM</time></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/1.jpg" alt="Lerio Cunha">
+                           </div>
+                           <h4>🇬🇧 Yes, I am a Leader! <span>Lerio Cunha</span></h4>
+                           <p data-tag="room2"></p>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/3.jpg" alt="Bożena Wachowicz">
+                           </div>
+                           <h4>🇵🇱 Co jest najważniejsze w życiu? <span>Bożena Wachowicz</span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>04:15 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="break"></h4>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>04:30 PM</time></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/4.jpg" alt="Akbota Sabetova">
+                           </div>
+                           <h4>🇬🇧 Mastering Impromptu Speaking. <span>Akbota Sabetova</span></h4>
+                           <p data-tag="room2"></p>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/6.jpg" alt="Norbert Grezel">
+                           </div>
+                           <h4>🇵🇱 Fight for your audience like Spartans do. <span>Norbert Grezel</span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>05:30 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="closing"></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>08:00 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="galaDinner"></h4>
+                           <p><a href="#" data-toggle="modal" data-target="#farinaBianco">Farina Bianco</a>.</p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>10:00 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="afterParty"></h4>
+                           <p><a href="#" data-toggle="modal" data-target="#scenografia">Scenografia</a>.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Schdule Day 2 -->
+                  <!-- Schdule Day 3 -->
+                  <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>09:00 AM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="networking"></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>10:00 AM</time></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/7.jpg" alt="Elena Pawęta">
+                           </div>
+                           <h4>🇬🇧 The art of building relationships. <span>Elena Pawęta</span></h4>
+                           <p data-tag="room2"></p>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/8.png" alt="Katarzyna Pruska">
+                           </div>
+                           <h4>🇵🇱 Warsztaty z emisji głosu uświadomią. <span>Katarzyna Pruska</span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/11.jpg" alt="Jerzy J. Buczyński">
+                           </div>
+                           <h4>🇵🇱 Magia wystąpień publicznych: projektowanie wspomnień. <span>Jerzy J. Buczyński</span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>10:45 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="break"></h4>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>11:00 AM</time></div>
+                        <div class="col-md-10">
+                           <h4>🇵🇱 <span data-tag="evaluationContest"></span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>11:45 AM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="break"></h4>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>12:00 PM</time></div>
+                        <div class="col-md-10">
+                           <h4>🇬🇧 <span data-tag="evaluationContest"></span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>12:45 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="lunchBreak"></h4>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>01:45 PM</time></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/9.jpg" alt="Erik Eklund">
+                           </div>
+                           <h4>🇬🇧 Beyond Authentic - The Untold Art of Personal Branding. <span>Erik Eklund</span></h4>
+                           <p data-tag="room2"></p>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/10.jpg" alt="Kamila Surma">
+                           </div>
+                           <h4>🇵🇱 Medytacja i oddech w przygotowaniu mówcy. <span>Kamila Surma</span></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                           <div class="speaker">
+                              <img src="img/speakers/12.jpg" alt="Filip Wypych">
+                           </div>
+                           <h4>🇵🇱 Cele, nie marzenia. <span>Filip Wypych</span></h4>
+                           <p data-tag="room1"></p>
+                        </div>                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>02:30 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="break"></h4>
+                        </div>
+                     </div>
+                     <div class="row schedule-item">
+                        <div class="col-md-2"><time>02:45 PM</time></div>
+                        <div class="col-md-10">
+                           <h4 data-tag="closing"></h4>
+                           <p data-tag="room1"></p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Schdule Day 3 -->
+               </div>
+            </div>
+         </section>
+         <!--==========================
+            Venue Section
+            ============================-->
+         <section id="venue" class="wow fadeInUp">
+            <div class="container-fluid">
+               <div class="section-header">
+                  <h2 data-tag="eventVenue"></h2>
+               </div>
+               <div class="row no-gutters">
+                  <div class="col-lg-6 venue-map">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.5191288621036!2d19.459099815460593!3d51.76011620001535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a34d3f44c2a2f%3A0x4ccb798fda95dc55!2sBoutique+Hotel&#39;s!5e0!3m2!1sen!2spl!4v1550160226933" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-lg-6 venue-info">
+                     <div class="row justify-content-center">
+                        <div class="col-11 col-lg-8">
+                           <h3>Boutique Hotel's, Łódź</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--      <div class="container-fluid venue-gallery-container">
+               <div class="row no-gutters">
+                 <div class="col-lg-3 col-md-4">
+                   <div class="venue-gallery">
+                     <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
+                       <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
+                     </a>
+                   </div>
+                 </div>
                 </div>
-              </div>
+               </div>-->
+         </section>
+         <!--==========================
+            Gallery Section
+            ============================-->
+         <section id="gallery" class="wow fadeInUp">
+            <div class="container">
+               <div class="section-header">
+                  <h2 data-tag="faculties"></h2>
+                  <p data-tag="checkFaculty"></p>
+               </div>
             </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center" data-tag="option2"></h5>
-                <h6 class="card-price text-center" data-tag="available"></h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="contests"></span></li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="galaDinner"></span></li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn btnBuy" data-tag="buyNow"></button>
-                </div>
-              </div>
+            <div class="owl-carousel gallery-carousel">
+               <a data-ref="2" class="venobox" data-gall="gallery-carousel"><img data-img="2" alt="Ualish"></a>
+               <a data-ref="3" class="venobox" data-gall="gallery-carousel"><img data-img="3" alt="Flytrus"></a>
+               <a data-ref="4" class="venobox" data-gall="gallery-carousel"><img data-img="4" alt="Blasfeir"></a>
+               <a data-ref="5" class="venobox" data-gall="gallery-carousel"><img data-img="5" alt="Lunalight"></a>
+               <a data-ref="6" class="venobox" data-gall="gallery-carousel"><img data-img="6" alt="Draconis"></a>
             </div>
-          </div>
-          <!-- Pro Tier -->
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center" data-tag="option3"></h5>
-                <h6 class="card-price text-center" data-tag="available"></h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="galaDinner"></span></li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn btnBuy" data-tag="buyNow"></button>
-                </div>
-
-              </div>
+         </section>
+         <!--==========================
+            Videos Section
+            ============================-->
+         <section id="videos" class="wow fadeInUp">
+            <div class="container">
+               <div class="section-header">
+                  <h2 data-tag="videos"></h2>
+               </div>
             </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <section id="organizers" class="wow fadeInUp">>
-      <div class="container">
-        <div class="section-header">
-            <br />
-          <h2 data-tag="organizers"></h2>
-        </div>
-          <h3 style="text-align:center;">
-              <a href="https://www.linkedin.com/in/ACoAAAEGM50BwDFFMMc-wNBWsM4cNqAs90UnH3k/">Radosław Dąbrowski</a>
-              <br />
-              <br />
-              <a href="https://www.linkedin.com/in/gerardo-garcia-88293841/">Gerardo García</a>              
-              <br />
-              <br />
-              <a href="https://www.linkedin.com/in/elzbietafilutowicz/">Elżbieta Filutowicz</a>
-              <br />
-              <br />
-              <a href="https://www.linkedin.com/in/adam-michalski-5584831/">Adam Michalski</a>
-              <br />
-              <br />
-              <a href="http://federiconavarrete.com">Federico Navarrete</a>
-          </h3>
-          <br />
-      </div>
-    </section>
-  </main>
-
-
-  <!--==========================
-    Footer
-  ============================-->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 footer-contact">
-            <h4 data-tag="contactUs"></h4>
-            <p>
-              Boutique Hotel's <br>
-              Piłsudskiego 10/14, 90-051<br>
-              Łódź, Poland<br>
-              <strong data-tag="phone"></strong> <a href="tel:+48422886718">+48 42 288 6718</a><br>
-              <strong>Email:</strong> <a href="mailto:lodzarts@gmail.com?subject=Contact me (Lodzarts)">lodzarts@gmail.com</a><br>
-            </p>
-
-            <div class="social-links">
-              <a href="https://www.facebook.com/events/262922607914234/" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.linkedin.com/company/28136325" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <div class="owl-carousel gallery-carousel">
+               <a href="https://www.youtube.com/watch?v=o0LhRICQEVQ" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video1.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=ipXqvdExcVM" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video2.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=KWa9wppegVQ" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video3.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=9AxTILQG0v8" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video4.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=9AxTILQG0v8" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video5.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=_gbZoHx0900" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video6.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=Dhdo1XM-ZpY" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video7.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=lXrLbBVErzI" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video8.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=AnEZNenrSas" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video9.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=QpoPGpGzuD8" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video10.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=E_QhSmhsMUk" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video11.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=XzwVakeaD-I" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video12.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=ftOkCXoy8Ls" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video13.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=ZcH1NGzlML4" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video15.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=L5fvH0KOtmo" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video16.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=4fw1eMLUoBY" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video17.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=Zpp0ax8ZuNY" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video18.jpg"></a>
+               <a href="https://www.youtube.com/watch?v=oSWkHovCL14" class="venobox play-btn mb-4" data-vbtype="video"
+                  data-autoplay="true" data-gall="gallery-carousel"><img src="img/gallery/videos/video19.jpg"></a>
             </div>
-
-          </div>
-          <div class="col-lg-4 col-md-6 footer-contact">
-          </div>
-          <div class="col-lg-4 col-md-6 footer-contact" style="text-align:center">
-            <a href="https://www.toastmasters.org"><img src="img/tmLogo.png" alt="TM Logo" title="" style="width:256px;"></a>
-          </div>
-        </div>
+         </section>
+         <!--==========================
+            Buy Ticket Section
+            ============================-->
+         <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+            <div class="container">
+               <div class="section-header">
+                  <h2 data-tag="buy"></h2>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4">
+                     <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                           <h5 class="card-title text-muted text-uppercase text-center" data-tag="option1"></h5>
+                           <h6 class="card-price text-center" data-tag="available"></h6>
+                           <hr>
+                           <ul class="fa-ul">
+                              <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="contests"></span></li>
+                              <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
+                              <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span><span data-tag="galaDinner"></span></li>
+                              <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
+                           </ul>
+                           <hr>
+                           <div class="text-center">
+                              <button type="button" class="btn btnBuy" data-tag="buyNow"></button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                           <h5 class="card-title text-muted text-uppercase text-center" data-tag="option2"></h5>
+                           <h6 class="card-price text-center" data-tag="available"></h6>
+                           <hr>
+                           <ul class="fa-ul">
+                              <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="contests"></span></li>
+                              <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="workshops"></span></li>
+                              <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="galaDinner"></span></li>
+                              <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
+                           </ul>
+                           <hr>
+                           <div class="text-center">
+                              <button type="button" class="btn btnBuy" data-tag="buyNow"></button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Pro Tier -->
+                  <div class="col-lg-4">
+                     <div class="card">
+                        <div class="card-body">
+                           <h5 class="card-title text-muted text-uppercase text-center" data-tag="option3"></h5>
+                           <h6 class="card-price text-center" data-tag="available"></h6>
+                           <hr>
+                           <ul class="fa-ul">
+                              <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="galaDinner"></span></li>
+                              <li><span class="fa-li"><i class="fa fa-check"></i></span><span data-tag="afterParty"></span></li>
+                           </ul>
+                           <hr>
+                           <div class="text-center">
+                              <button type="button" class="btn btnBuy" data-tag="buyNow"></button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="organizers" class="wow fadeInUp">
+            >
+            <div class="container">
+               <div class="section-header">
+                  <br />
+                  <h2 data-tag="organizers"></h2>
+               </div>
+               <h3 style="text-align:center;">
+                  <a href="https://www.linkedin.com/in/ACoAAAEGM50BwDFFMMc-wNBWsM4cNqAs90UnH3k/">Radosław Dąbrowski - Single Point of Contact with Providers</a>
+                  <br />
+                  <br />
+                  <a href="https://www.linkedin.com/in/gerardo-garcia-88293841/">Gerardo García - Video Editor, Ads Expert and Interviewer</a>              
+                  <br />
+                  <br />
+                  <a href="https://www.linkedin.com/in/elzbietafilutowicz/">Elżbieta Filutowicz - Single Point of Contact with Clubs</a>
+                  <br />
+                  <br />
+                  <a href="https://www.linkedin.com/in/adam-michalski-5584831/">Adam Michalski - Treasurer</a>
+                  <br />
+                  <br />
+                  <a href="http://federiconavarrete.com">Federico Navarrete - Conference Chair</a>
+               </h3>
+               <br />
+            </div>
+         </section>
+      </main>
+      <!--==========================
+         Footer
+         ============================-->
+      <footer id="footer">
+         <div class="footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-4 col-md-6 footer-contact">
+                     <h4 data-tag="contactUs"></h4>
+                     <p>
+                        Boutique Hotel's <br>
+                        Piłsudskiego 10/14, 90-051<br>
+                        Łódź, Poland<br>
+                        <strong data-tag="phone"></strong> <a href="tel:+48422886718">+48 42 288 6718</a><br>
+                        <strong>Email:</strong> <a href="mailto:lodzarts@gmail.com?subject=Contact me (Lodzarts)">lodzarts@gmail.com</a><br>
+                     </p>
+                     <div class="social-links">
+                        <a href="https://www.facebook.com/events/262922607914234/" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/28136325" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 footer-contact">
+                  </div>
+                  <div class="col-lg-4 col-md-6 footer-contact" style="text-align:center">
+                     <a href="https://www.toastmasters.org"><img src="img/tmLogo.png" alt="TM Logo" title="" style="width:256px;"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="copyright">
+               &copy; Copyright <strong><a href="http://federiconavarrete.com">Federico Navarrete</a></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+               <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+                  -->
+               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+         </div>
+      </footer>
+      <!-- #footer -->
+      <!-- Modal -->
+      <div class="modal fade" id="lodzFabryczyna" tabindex="-1" role="dialog" aria-labelledby="lodzFabryczyna" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Łódź Fabryczyna</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.001306154263!2d19.46728301546094!3d51.76958329932076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcb294d3b2a4b%3A0x4f2852cfdff12db0!2zxYHDs2TFuiBGYWJyeWN6bmEgcmFpbHdheSBzdGF0aW9u!5e0!3m2!1sen!2spl!4v1550213417572" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><a href="http://federiconavarrete.com">Federico Navarrete</a></strong>. All Rights Reserved
+      <!-- Modal -->
+      <div class="modal fade" id="farinaBianco" tabindex="-1" role="dialog" aria-labelledby="farinaBianco" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Farina Bianco</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.5235098104386!2d19.4590910154606!3d51.76003610002125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a34d38aa83c9b%3A0x8705e1539dc63d57!2sFarina+Bianco!5e0!3m2!1sen!2spl!4v1550214005013" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
       </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <!-- Modal -->
+      <div class="modal fade" id="scenografia" tabindex="-1" role="dialog" aria-labelledby="scenografia" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Scenografia</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2468.7148285975863!2d19.44982331546115!3d51.7748202989365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcad0ef805625%3A0xe44c380bb8ce8958!2sScenografia!5e0!3m2!1sen!2spl!4v1550214078072" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  </footer><!-- #footer -->
-
-  <!-- Modal -->
-  <div class="modal fade" id="lodzFabryczyna" tabindex="-1" role="dialog" aria-labelledby="lodzFabryczyna" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Łódź Fabryczyna</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.001306154263!2d19.46728301546094!3d51.76958329932076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcb294d3b2a4b%3A0x4f2852cfdff12db0!2zxYHDs2TFuiBGYWJyeWN6bmEgcmFpbHdheSBzdGF0aW9u!5e0!3m2!1sen!2spl!4v1550213417572" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal -->
-  <div class="modal fade" id="farinaBianco" tabindex="-1" role="dialog" aria-labelledby="farinaBianco" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Farina Bianco</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.5235098104386!2d19.4590910154606!3d51.76003610002125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a34d38aa83c9b%3A0x8705e1539dc63d57!2sFarina+Bianco!5e0!3m2!1sen!2spl!4v1550214005013" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal -->
-  <div class="modal fade" id="scenografia" tabindex="-1" role="dialog" aria-labelledby="scenografia" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Scenografia</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2468.7148285975863!2d19.44982331546115!3d51.7748202989365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bcad0ef805625%3A0xe44c380bb8ce8958!2sScenografia!5e0!3m2!1sen!2spl!4v1550214078072" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/venobox/venobox.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-    
-  <script>
-      $(function(){
-    $(".btnBuy").click(function(e){
-        e.preventDefault();
-        window.location.href = "https://lodzarts.evenea.pl";
-    });          
-      });
-  </script>
-</body>
-
+      <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+      <!-- JavaScript Libraries -->
+      <script src="lib/jquery/jquery.min.js"></script>
+      <script src="lib/jquery/jquery-migrate.min.js"></script>
+      <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/superfish/hoverIntent.js"></script>
+      <script src="lib/superfish/superfish.min.js"></script>
+      <script src="lib/wow/wow.min.js"></script>
+      <script src="lib/venobox/venobox.min.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+      <!-- Template Main Javascript File -->
+      <script src="js/main.js"></script>
+      <script>
+         $(function(){
+         $(".btnBuy").click(function(e){
+           e.preventDefault();
+           window.location.href = "https://lodzarts.evenea.pl";
+         });          
+         });
+      </script>
+   </body>
 </html>
