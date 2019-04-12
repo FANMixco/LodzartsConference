@@ -43,6 +43,11 @@
     "option1": "Standardowy",
     "option2": "Pełny",
     "option3": "Gala Dinner",
+    "option4": "Tylko Konkurs (JEDEN DZIEŃ)",
+    "option5": "Tylko Konkurs (DWA DNI)",
+    "option6": "TYLKO w sobotę",
+    "option7": "TYLKO w niedzielę",
+    "option8": "Weekend",
     "buyNow": "Kup Teraz",
     "contactUs": "Skontaktuj się z nami",
     "phone": "Telefon:",
@@ -52,5 +57,9 @@
     "available": "Dostępny",
     "contests": "Konkursy",
     "organizers": "Organizatorzy",
-    "videos": "Filmy"
+    "videos": "Filmy",
+    "saturday": "Sobota",
+    "sunday": "Niedziela",
+    "contestOne": "Konkurs TYLKO na sobotę lub niedzielę",
+    "contestBoth": "Tylko Konkurs na sobotę i niedzielę"
 }

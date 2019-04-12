@@ -43,6 +43,11 @@
     "option1": "Standard",
     "option2": "Full",
     "option3": "Gala Dinner",
+    "option4": "Contest Only (ONE DAY)",
+    "option5": "Contest Only (BOTH DAYS)",
+    "option6": "Saturday ONLY",
+    "option7": "Sunday ONLY",
+    "option8": "Weekend",
     "buyNow": "Buy Now",
     "contactUs": "Contact Us",
     "phone": "Phone:",
@@ -53,5 +58,9 @@
     "contests": "Contests",
     "show": "Magician Show",
     "organizers": "Organizers",
-    "videos": "Videos"
+    "videos": "Videos",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "contestOne": "Contest ONLY for Saturday or Sunday",
+    "contestBoth": "Contest Only for Saturday and Sunday"
 }
